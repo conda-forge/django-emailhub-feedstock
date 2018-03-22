@@ -31,6 +31,15 @@ test:
     - tox >=2.9.1
   imports:
     - emailhub
+    - emailhub.backends
+    - emailhub.backends.anymail
+    - emailhub.backends.secure_mail
+    - emailhub.conf
+    - emailhub.management
+    - emailhub.migrations
+    - emailhub.runtests
+    - emailhub.tests
+    - emailhub.utils
 
 about:
   home: https://gitlab.com/h3/django-emailhub

@@ -12,17 +12,17 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  skip: True  # [py36]
+  noarch: python
   number: 1001
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
-  build:
-    - python
+  host:
+    - python <3.6
     - setuptools
     - pip
   run:
-    - python
+    - python <3.6
     - django >=1.8,<=1.11
     - six >=1.11.0
 

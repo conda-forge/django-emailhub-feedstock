@@ -1,6 +1,6 @@
 {% set name = "django-emailhub" %}
 {% set version = "0.0.1" %}
-{% set sha256 = "b951a325783465e55c1798e612b26ab22f66878b1d2fab5291a868965a174ac2" %}
+{% set sha256 = "24e347b74e99b9d2e9d20c4d349c326e469c47c801d60871ab4fc3a17b3a80eb" %}
 
 package:
   name: {{ name|lower }}
